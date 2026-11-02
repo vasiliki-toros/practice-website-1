@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>kursdetails</title>
+    <script src="js/daten.js" defer></script>
+    <script src="js/hilfsfunktionen.js" defer></script>
+    <script src="js/kursdetails.js" defer></script>
+    <link rel = "stylesheet" href ="css/style.css">
+        
+  </head>
+  <body>
+     <!--Sichtbarer Kopfbereich mit Name und Navigation. Auf allen Seiten gleich.-->
+    <header>
+        <!--Innerer Bereich: hält Name und Navigation in der Seitenbreite zusammen (CSS #inner_header)-->
+        <div id="inner_header">
+        <!--Sichtbare Überschrift auf der Webseite-->
+        <h1>Meine Webseite</h1>
+            <!--Bereich für die Navigation-->
+            <nav>
+                <!--Ungeordnete Liste (ul) mit den Links-->
+                <ul>
+                <!--Listenpunkt (li) mit einem Link (a) zur Startseite-->
+                <li><a href="index.html">Start</a></li>
+                <!--Link zur Unterseite Kurse-->
+                <li><a href="kurse.html">Kurse</a></li>
+                <!--Link zur Unterseite Kontakt-->
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <!--Link zu einem Abschnitt dieser Seite: # und die id-->
+                <li><a href="#id_kurse">Unser Angebot</a></li>
+                <!--Link zur Unterseite Merkliste-->
+                <li><a href="merkliste.html">Merkliste</a></li>
+                </ul>
+            </nav>
+        <!--Ende des inneren Kopfbereichs-->
+        </div>
+    </header>
+    <main>
+            
+        <div id="details"></div>
+    </main>
+      <footer>
+                <p>&copy; 2026 Meine Webseite</p>
+    </footer>
+  </body>
+</html>

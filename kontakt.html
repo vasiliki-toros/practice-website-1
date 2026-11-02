@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt - Meine Website</title>
+<meta name="description" content="Unsere Kurse auf einem Blick.">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/daten.js" defer></script>
+<script src="js/hilfsfunktionen.js" defer>    
+</script>
+<script src="js/dropdown.js" defer></script>
+<script src="js/formular.js" defer></script>
+
+<body>
+  <header>
+    <div id="inner_header">
+        <h1>Meine Webseite</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Start</a></li>  
+            <li><a href="kurse.html">Kurse</a></li>  
+            <li><a href="kontakt.html">Kontakt</a></li>  
+            <li><a href="index.html#id_kurse">Unser Angebot</a></li>  
+            <li><a href="merkliste.html">Merkliste</a></li>  
+
+
+                      
+
+          </ul>
+        </nav>
+
+    </div>
+  </header>
+  <main>
+    <h2>Kontakt</h2>
+    <form id="Kontaktformular">
+    <fieldset>
+<legend>Ihre Kontaktdaten</legend>
+  
+     
+      <label for ="vorname">Vorname</label>
+      <input id ="vorname" type="text" placeholder="z.B. Max">
+
+      <label for = "nachname">Nachname</label> 
+      <input id="nachname" type = "text" placeholder = "z.B. Müller">
+      
+      <label for = "email">Email</label> 
+      <input id="email" type = "email" placeholder = "max.mueller@email.de">
+
+      <label for = "kursauswahl">Bitte Auswählen</label> 
+      <select id="kursauswahl">
+        <option value = "">bitte auswählen</option>
+      </select>
+      <label for = "nachricht">Nachricht an uns</label>
+      <textarea id = "nachricht" rows = "5" type = "text" placeholder = "Hier Ihre Anfrage eingeben"></textarea>
+
+        </fieldset>
+        <button type="submit">Absenden</button> 
+        <p id="formular_hinweis"></p>
+  </form>
+ 
+  </main>
+</body>
+<footer>
+  <p>&copy; 2026 Meine Website</p> 
+</footer>
+</html>
